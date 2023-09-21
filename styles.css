@@ -6,27 +6,11 @@ body {
 
 .header {
     font-family: 'CreatoDisplayBlack';
+    border: solid 1px white;
 }
 
 img {
     border-radius: 10px;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: columns;
-}
-
-.flex-container > .content {
-    flex: 1 1 250px;
-}
-
-.flex-container > .sidebar {
-    flex: 1 1 50px;
-    border: 2px solid azure;
-    border-radius: 7px;
-    padding: 1px;
-    background-color: #b9a5db;
 }
 
 @font-face {
@@ -42,9 +26,4 @@ img {
 @font-face {
     font-family: CreatoDisplayMedium;
     src: url(/fonts/CreatoDisplay-Medium.otf);
-}
-
-* {
-    margin: 2px;
-    padding: 2px;
 }
