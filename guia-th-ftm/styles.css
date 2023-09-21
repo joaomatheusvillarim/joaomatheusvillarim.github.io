@@ -46,3 +46,7 @@ nav {
     margin: 5px;
     border-radius: 10px;
 }
+
+area {
+    cursor: grab;
+}

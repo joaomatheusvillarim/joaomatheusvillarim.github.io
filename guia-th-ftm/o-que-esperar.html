@@ -4,7 +4,7 @@
         <title>Guia de Hormonização Transmasculina</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script src="script.js"> </script>
+        <script src="oQueEsperar.js"> </script>
     </head>
 
     <body>
@@ -26,6 +26,7 @@
                 transmasculina, imagino que esteja muito animado e ansioso por todas
                 as mudanças que acontecerão no seu corpo. Fizemos uma lista do que pode
                 ocorrer pra você ficar por dentro. </p>
+            <img src="injetandoTesto.jpg" height="250px" alt="injeção de testosterona">
             <h4>Mudanças físicas</h4>
             <ul>
                 <li>Redistribuição de gordura</li>
@@ -36,6 +37,20 @@
                 <li>Encolhimento das glândulas mamárias</li>
                 <li>Cessação da menstruação</li>
             </ul>
+            <h3>Clique em uma área do corpo para ver as mudanças específicas a ela</h3>
+            <img src="corpo.jpg" usemap="#corpo">
+            <map name="corpo">
+                <area shape="rect" coords="85,26,158,70" alt="cabelo" onclick="cabelo()">
+                <area shape="rect" coords="96,60,148,136" alt="rosto e pescoço" onclick="rosto()">
+                <area shape="rect" coords="62,140,182,206" alt="peito e axilas" onclick="peito()">
+                <area shape="rect" coords="" alt="braços" onclick="bracos()">
+                <area shape="rect" coords="" alt="abdomen" onclick="abdomen()">
+                <area shape="rect" coords="" alt="maos" onclick="maos()">
+                <area shape="rect" coords="" alt="genitais" onclick="genitais()">
+                <area shape="rect" coords="" alt="pernas" onclick="pernas()">
+            </map>
+            <p id="info">
+            </p>
             <p>
                 <i>Em construção...</i>
             </p>
