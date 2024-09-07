@@ -111,3 +111,11 @@ footer > .container > p {
   text-align: center;
   padding: 20px;
 }
+
+.projects > .content p {
+  margin: 10px;
+}
+
+.projects > .content h4 {
+  text-align: center;
+}
